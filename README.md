@@ -1,4 +1,4 @@
-# AsyncIterable and Iterable with fp-ts
+# Generic Resource Pool for fp-ts
 
 [![NPM Version](https://img.shields.io/npm/v/fp-ts-pool.svg?style=flat-square)](https://www.npmjs.com/package/fp-ts-pool)
 [![NPM Downloads](https://img.shields.io/npm/dt/fp-ts-pool.svg?style=flat-square)](https://www.npmjs.com/package/fp-ts-pool)

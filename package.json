@@ -27,6 +27,8 @@
     "fp",
     "pool",
     "async",
+    "task",
+    "task-either",
     "functional",
     "resource"
   ],
