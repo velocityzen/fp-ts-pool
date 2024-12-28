@@ -1,0 +1,103 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "stripInternal": true,
+    "skipLibCheck": true,
+    "plugins": [
+      {
+        "name": "@unsplash/ts-namespace-import-plugin",
+        "namespaces": {
+          "A": {
+            "importPath": "fp-ts/lib/Array"
+          },
+          "B": {
+            "importPath": "fp-ts/lib/boolean"
+          },
+          "C": {
+            "importPath": "fp-ts/lib/Console"
+          },
+          "D": {
+            "importPath": "fp-ts/lib/Date"
+          },
+          "E": {
+            "importPath": "fp-ts/lib/Either"
+          },
+          "IO": {
+            "importPath": "fp-ts/lib/IO"
+          },
+          "IOE": {
+            "importPath": "fp-ts/lib/IOEither"
+          },
+          "IOO": {
+            "importPath": "fp-ts/lib/IOOption"
+          },
+          "J": {
+            "importPath": "fp-ts/lib/Json"
+          },
+          "N": {
+            "importPath": "fp-ts/lib/number"
+          },
+          "NEA": {
+            "importPath": "fp-ts/lib/NonEmptyArray"
+          },
+          "O": {
+            "importPath": "fp-ts/lib/Option"
+          },
+          "P": {
+            "importPath": "fp-ts/lib/Predicate"
+          },
+          "R": {
+            "importPath": "fp-ts/lib/Reader"
+          },
+          "RA": {
+            "importPath": "fp-ts/lib/ReadonlyArray"
+          },
+          "RE": {
+            "importPath": "fp-ts/lib/ReaderEither"
+          },
+          "RIO": {
+            "importPath": "fp-ts/lib/ReaderIO"
+          },
+          "RNEA": {
+            "importPath": "fp-ts/lib/ReadonlyNonEmptyArray"
+          },
+          "RT": {
+            "importPath": "fp-ts/lib/ReaderTask"
+          },
+          "RTE": {
+            "importPath": "fp-ts/lib/ReaderTaskEither"
+          },
+          "S": {
+            "importPath": "fp-ts/lib/string"
+          },
+          "T": {
+            "importPath": "fp-ts/lib/Task"
+          },
+          "TE": {
+            "importPath": "fp-ts/lib/TaskEither"
+          },
+          "TT": {
+            "importPath": "fp-ts/lib/TaskThese"
+          },
+          "TO": {
+            "importPath": "fp-ts/lib/TaskOption"
+          },
+          "TU": {
+            "importPath": "fp-ts/lib/Tuple"
+          }
+        }
+      }
+    ]
+  },
+  "include": ["./lib/**/*", "./tests/**/*"],
+  "exclude": ["./node_modules"]
+}
