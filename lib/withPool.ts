@@ -49,9 +49,7 @@ export function withPool<R>({
   const withPool = B.Bracket(aquirePool, releasePool);
 
   return <T>(
-    fn: (
-      acquire: (priority?: number) => B.Bracket<Error, R>,
-    ) => TE.TaskEither<Error, T>,
+    fn: (acquire: () => B.Bracket<Error, R>) => TE.TaskEither<Error, T>,
   ): TE.TaskEither<Error, T> =>
     pipe(
       withPool,
