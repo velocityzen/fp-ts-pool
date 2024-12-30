@@ -71,3 +71,5 @@ export function withPool<R>({
       }),
     );
 }
+
+export type WithPool<R> = ReturnType<typeof withPool<R>>;
